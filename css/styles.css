@@ -69,7 +69,6 @@ letter-spacing: 0.02em;
 }
 .header-link:hover, .header-tel:hover, .header-mail:hover{
 color: var(--accent-color);
-cursor: pointer;
 }
 .header-mail, .header-tel {
 color: var(--primary-text-color);
