@@ -47,6 +47,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 .header-btn {
+font-family: inherit;
 color: #FFFFFF;
 background-color: var(--accent-color);
 font-weight: 700;
@@ -57,7 +58,8 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 }
-.header-btn:hover {
+.header-btn:hover,
+.header-btn:focus {
 cursor: pointer;
 }
 .header-link {
@@ -67,8 +69,13 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
-.header-link:hover, .header-tel:hover, .header-mail:hover{
-color: var(--accent-color);
+.header-link:hover,
+.header-link:focus,
+.header-tel:hover,
+.header-tel:focus,
+.header-mail:hover,
+.header-mail:focus
+{color: var(--accent-color);
 }
 .header-mail, .header-tel {
 color: var(--primary-text-color);
@@ -163,6 +170,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 /*portfolio*/
 .portfolio-btn {
+font-family: inherit;
 color: var(--primary-title-color);
 background-color: #F5F4FA;
 font-weight: 500;
@@ -171,10 +179,11 @@ line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.portfolio-btn:hover {
-    color: #FFFFFF;
-    cursor: pointer;
-    background-color:var(--accent-color);
+.portfolio-btn:hover, 
+.portfolio-btn:focus{
+color: #FFFFFF;
+cursor: pointer;
+background-color:var(--accent-color);
 }
 .portfolio-examples-title {
 color: var(--primary-title-color);
