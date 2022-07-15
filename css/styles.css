@@ -1,11 +1,12 @@
 :root {
 	--primary-text-color: #757575;
 	--primary-title-color: #212121;
+    --accent-color: #2196F3;
 }
 
 body {
 	font-family: "roboto", sans-serif;
-	color: #757575;
+	color: var(--primary-text-color);
 }
 .visually-hidden { 
     position: absolute; 
@@ -24,9 +25,6 @@ body {
     }
     /*header*/
 
-.header {
-
-}
 .header-logo {
 font-family: 'Raleway';
 font-style: normal;
@@ -36,13 +34,13 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 }
 .header-logo-part {
-color: #2196F3;
+color: var(--accent-color);
 }
 .header-logo-second-part {
 color:  #000000;
 }
 .header-nav {
-color: #212121; 
+color: var(--primary-title-color); 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -50,7 +48,7 @@ letter-spacing: 0.02em;
 }
 .header-btn {
 color: #FFFFFF;
-background-color: #2196F3;;
+background-color: var(--accent-color);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -62,12 +60,19 @@ letter-spacing: 0.06em;
 .header-btn:hover {
 cursor: pointer;
 }
+.header-link {
+color: var(--primary-title-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
 .header-link:hover, .header-tel:hover, .header-mail:hover{
-color: #2196F3;
+color: var(--accent-color);
 cursor: pointer;
 }
 .header-mail, .header-tel {
-color: #757575;
+color: var(--primary-text-color);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -136,7 +141,7 @@ font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;}
 .footer-logo-part { 
-color: #2196F3;}
+color: var(--accent-color);}
 .footer-logo-second-part {
 color: #FFFFFF;
 }
@@ -160,6 +165,7 @@ color: rgba(255, 255, 255, 0.6);
 /*portfolio*/
 .portfolio-btn {
 color: var(--primary-title-color);
+background-color: #F5F4FA;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
@@ -169,7 +175,7 @@ letter-spacing: 0.03em;
 .portfolio-btn:hover {
     color: #FFFFFF;
     cursor: pointer;
-    background-color: #2196F3;
+    background-color:var(--accent-color);
 }
 .portfolio-examples-title {
 color: var(--primary-title-color);
