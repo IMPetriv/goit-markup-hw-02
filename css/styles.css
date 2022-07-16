@@ -160,6 +160,7 @@ body {
 	background-color: #2f303a;
 }
 .footer-location {
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
@@ -167,6 +168,7 @@ body {
 }
 .footer-mail,
 .footer-tel {
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
